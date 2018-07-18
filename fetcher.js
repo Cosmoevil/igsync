@@ -205,7 +205,7 @@ console.log('Delay')
           that.feed(count, total);
         });
       }
-      return chrome.browserAction.setBadgeText({ text: '1/90'});
+      return chrome.browserAction.setBadgeText({ text: '1/91'});
     });
 				}, 2000);
   }
@@ -235,7 +235,7 @@ console.log('Delay')
           that.feed(count, total);
         });
       }
-      return chrome.browserAction.setBadgeText({ text: '2/90'});
+      return chrome.browserAction.setBadgeText({ text: '2/91'});
     });
 				}, 6000);
   }
@@ -265,7 +265,7 @@ console.log('Delay')
           that.feed(count, total);
         });
       }
-      return chrome.browserAction.setBadgeText({ text: '3/90'});
+      return chrome.browserAction.setBadgeText({ text: '3/91'});
     });
 				}, 10000);
   }
@@ -295,7 +295,7 @@ console.log('Delay')
           that.feed(count, total);
         });
       }
-      return chrome.browserAction.setBadgeText({ text: '4/90'});
+      return chrome.browserAction.setBadgeText({ text: '4/91'});
     });
 				}, 14000);
   }
@@ -325,7 +325,7 @@ console.log('Delay')
           that.feed(count, total);
         });
       }
-      return chrome.browserAction.setBadgeText({ text: '5/90'});
+      return chrome.browserAction.setBadgeText({ text: '5/91'});
     });
 				}, 18000);
   }
@@ -355,7 +355,7 @@ console.log('Delay')
           that.feed(count, total);
         });
       }
-      return chrome.browserAction.setBadgeText({ text: '6/90'});
+      return chrome.browserAction.setBadgeText({ text: '6/91'});
     });
 				}, 22000);
   }
@@ -385,7 +385,7 @@ console.log('Delay')
           that.feed(count, total);
         });
       }
-      return chrome.browserAction.setBadgeText({ text: '7/90'});
+      return chrome.browserAction.setBadgeText({ text: '7/91'});
     });
 				}, 26000);
   }
@@ -415,7 +415,7 @@ console.log('Delay')
           that.feed(count, total);
         });
       }
-      return chrome.browserAction.setBadgeText({ text: '8/90'});
+      return chrome.browserAction.setBadgeText({ text: '8/91'});
     });
 				}, 30000);
   }
@@ -445,7 +445,7 @@ console.log('Delay')
           that.feed(count, total);
         });
       }
-      return chrome.browserAction.setBadgeText({ text: '9/90'});
+      return chrome.browserAction.setBadgeText({ text: '9/91'});
     });
 				}, 34000);
   }
@@ -475,7 +475,7 @@ console.log('Delay')
           that.feed(count, total);
         });
       }
-      return chrome.browserAction.setBadgeText({ text: '10/90'});
+      return chrome.browserAction.setBadgeText({ text: '10/91'});
     });
 				}, 38000);
   }
@@ -505,7 +505,7 @@ console.log('Delay')
           that.feed(count, total);
         });
       }
-      return chrome.browserAction.setBadgeText({ text: '11/90'});
+      return chrome.browserAction.setBadgeText({ text: '11/91'});
     });
 				}, 42000);
   }
@@ -535,7 +535,7 @@ console.log('Delay')
           that.feed(count, total);
         });
       }
-      return chrome.browserAction.setBadgeText({ text: '12/90'});
+      return chrome.browserAction.setBadgeText({ text: '12/91'});
     });
 				}, 46000);
   }
@@ -565,7 +565,7 @@ console.log('Delay')
           that.feed(count, total);
         });
       }
-      return chrome.browserAction.setBadgeText({ text: '13/90'});
+      return chrome.browserAction.setBadgeText({ text: '13/91'});
     });
 				}, 50000);
   }
@@ -595,7 +595,7 @@ console.log('Delay')
           that.feed(count, total);
         });
       }
-      return chrome.browserAction.setBadgeText({ text: '14/90'});
+      return chrome.browserAction.setBadgeText({ text: '14/91'});
     });
 				}, 54000);
   }
@@ -625,7 +625,7 @@ console.log('Delay')
           that.feed(count, total);
         });
       }
-      return chrome.browserAction.setBadgeText({ text: '15/90'});
+      return chrome.browserAction.setBadgeText({ text: '15/91'});
     });
 				}, 58000);
   }
@@ -655,7 +655,7 @@ console.log('Delay')
           that.feed(count, total);
         });
       }
-      return chrome.browserAction.setBadgeText({ text: '16/90'});
+      return chrome.browserAction.setBadgeText({ text: '16/91'});
     });
 				}, 62000);
   }
@@ -685,7 +685,7 @@ console.log('Delay')
           that.feed(count, total);
         });
       }
-      return chrome.browserAction.setBadgeText({ text: '17/90'});
+      return chrome.browserAction.setBadgeText({ text: '17/91'});
     });
 				}, 66000);
   }
@@ -715,7 +715,7 @@ console.log('Delay')
           that.feed(count, total);
         });
       }
-      return chrome.browserAction.setBadgeText({ text: '18/90'});
+      return chrome.browserAction.setBadgeText({ text: '18/91'});
     });
 				}, 70000);
   }
@@ -745,7 +745,7 @@ console.log('Delay')
           that.feed(count, total);
         });
       }
-      return chrome.browserAction.setBadgeText({ text: '19/90'});
+      return chrome.browserAction.setBadgeText({ text: '19/91'});
     });
 				}, 74000);
   }
@@ -775,7 +775,7 @@ console.log('Delay')
           that.feed(count, total);
         });
       }
-      return chrome.browserAction.setBadgeText({ text: '20/90'});
+      return chrome.browserAction.setBadgeText({ text: '20/91'});
     });
 				}, 78000);
   }
@@ -805,7 +805,7 @@ console.log('Delay')
           that.feed(count, total);
         });
       }
-      return chrome.browserAction.setBadgeText({ text: '21/90'});
+      return chrome.browserAction.setBadgeText({ text: '21/91'});
     });
 				}, 82000);
   }
@@ -835,7 +835,7 @@ console.log('Delay')
           that.feed(count, total);
         });
       }
-      return chrome.browserAction.setBadgeText({ text: '22/90'});
+      return chrome.browserAction.setBadgeText({ text: '22/91'});
     });
 				}, 86000);
   }
@@ -865,7 +865,7 @@ console.log('Delay')
           that.feed(count, total);
         });
       }
-      return chrome.browserAction.setBadgeText({ text: '23/90'});
+      return chrome.browserAction.setBadgeText({ text: '23/91'});
     });
 				}, 90000);
   }
@@ -895,7 +895,7 @@ console.log('Delay')
           that.feed(count, total);
         });
       }
-      return chrome.browserAction.setBadgeText({ text: '24/90'});
+      return chrome.browserAction.setBadgeText({ text: '24/91'});
     });
 				}, 94000);
   }
@@ -925,7 +925,7 @@ console.log('Delay')
           that.feed(count, total);
         });
       }
-      return chrome.browserAction.setBadgeText({ text: '25/90'});
+      return chrome.browserAction.setBadgeText({ text: '25/91'});
     });
 				}, 98000);
   }
@@ -955,7 +955,7 @@ console.log('Delay')
           that.feed(count, total);
         });
       }
-      return chrome.browserAction.setBadgeText({ text: '26/90'});
+      return chrome.browserAction.setBadgeText({ text: '26/91'});
     });
 				}, 102000);
   }
@@ -985,7 +985,7 @@ console.log('Delay')
           that.feed(count, total);
         });
       }
-      return chrome.browserAction.setBadgeText({ text: '27/90'});
+      return chrome.browserAction.setBadgeText({ text: '27/91'});
     });
 				}, 106000);
   }
@@ -1015,7 +1015,7 @@ console.log('Delay')
           that.feed(count, total);
         });
       }
-      return chrome.browserAction.setBadgeText({ text: '28/90'});
+      return chrome.browserAction.setBadgeText({ text: '28/91'});
     });
 				}, 110000);
   }
@@ -1045,7 +1045,7 @@ console.log('Delay')
           that.feed(count, total);
         });
       }
-      return chrome.browserAction.setBadgeText({ text: '29/90'});
+      return chrome.browserAction.setBadgeText({ text: '29/91'});
     });
 				}, 114000);
   }
@@ -1075,7 +1075,7 @@ console.log('Delay')
           that.feed(count, total);
         });
       }
-      return chrome.browserAction.setBadgeText({ text: '30/90'});
+      return chrome.browserAction.setBadgeText({ text: '30/91'});
     });
 				}, 118000);
   }
@@ -1105,7 +1105,7 @@ console.log('Delay')
           that.feed(count, total);
         });
       }
-      return chrome.browserAction.setBadgeText({ text: '31/90'});
+      return chrome.browserAction.setBadgeText({ text: '31/91'});
     });
 				}, 122000);
   }
@@ -1135,7 +1135,7 @@ console.log('Delay')
           that.feed(count, total);
         });
       }
-      return chrome.browserAction.setBadgeText({ text: '32/90'});
+      return chrome.browserAction.setBadgeText({ text: '32/91'});
     });
 				}, 126000);
   }
@@ -1165,7 +1165,7 @@ console.log('Delay')
           that.feed(count, total);
         });
       }
-      return chrome.browserAction.setBadgeText({ text: '33/90'});
+      return chrome.browserAction.setBadgeText({ text: '33/91'});
     });
 				}, 130000);
   }
@@ -1195,7 +1195,7 @@ console.log('Delay')
           that.feed(count, total);
         });
       }
-      return chrome.browserAction.setBadgeText({ text: '34/90'});
+      return chrome.browserAction.setBadgeText({ text: '34/91'});
     });
 				}, 134000);
   }
@@ -1225,7 +1225,7 @@ console.log('Delay')
           that.feed(count, total);
         });
       }
-      return chrome.browserAction.setBadgeText({ text: '35/90'});
+      return chrome.browserAction.setBadgeText({ text: '35/91'});
     });
 				}, 138000);
   }
@@ -1255,7 +1255,7 @@ console.log('Delay')
           that.feed(count, total);
         });
       }
-      return chrome.browserAction.setBadgeText({ text: '36/90'});
+      return chrome.browserAction.setBadgeText({ text: '36/91'});
     });
 				}, 142000);
   }
@@ -1285,7 +1285,7 @@ console.log('Delay')
           that.feed(count, total);
         });
       }
-      return chrome.browserAction.setBadgeText({ text: '37/90'});
+      return chrome.browserAction.setBadgeText({ text: '37/91'});
     });
 				}, 146000);
   }
@@ -1315,7 +1315,7 @@ console.log('Delay')
           that.feed(count, total);
         });
       }
-      return chrome.browserAction.setBadgeText({ text: '38/90'});
+      return chrome.browserAction.setBadgeText({ text: '38/91'});
     });
 				}, 150000);
   }
@@ -1345,7 +1345,7 @@ console.log('Delay')
           that.feed(count, total);
         });
       }
-      return chrome.browserAction.setBadgeText({ text: '39/90'});
+      return chrome.browserAction.setBadgeText({ text: '39/91'});
     });
 				}, 154000);
   }
@@ -1375,7 +1375,7 @@ console.log('Delay')
           that.feed(count, total);
         });
       }
-      return chrome.browserAction.setBadgeText({ text: '40/90'});
+      return chrome.browserAction.setBadgeText({ text: '40/91'});
     });
 				}, 158000);
   }
@@ -1405,7 +1405,7 @@ console.log('Delay')
           that.feed(count, total);
         });
       }
-      return chrome.browserAction.setBadgeText({ text: '41/90'});
+      return chrome.browserAction.setBadgeText({ text: '41/91'});
     });
 				}, 162000);
   }
@@ -1435,7 +1435,7 @@ console.log('Delay')
           that.feed(count, total);
         });
       }
-      return chrome.browserAction.setBadgeText({ text: '42/90'});
+      return chrome.browserAction.setBadgeText({ text: '42/91'});
     });
 				}, 166000);
   }
@@ -1465,7 +1465,7 @@ console.log('Delay')
           that.feed(count, total);
         });
       }
-      return chrome.browserAction.setBadgeText({ text: '43/90'});
+      return chrome.browserAction.setBadgeText({ text: '43/91'});
     });
 				}, 170000);
   }
@@ -1495,7 +1495,7 @@ console.log('Delay')
           that.feed(count, total);
         });
       }
-      return chrome.browserAction.setBadgeText({ text: '44/90'});
+      return chrome.browserAction.setBadgeText({ text: '44/91'});
     });
 				}, 174000);
   }
@@ -1525,7 +1525,7 @@ console.log('Delay')
           that.feed(count, total);
         });
       }
-      return chrome.browserAction.setBadgeText({ text: '45/90'});
+      return chrome.browserAction.setBadgeText({ text: '45/91'});
     });
 				}, 178000);
   }
@@ -1555,7 +1555,7 @@ console.log('Delay')
           that.feed(count, total);
         });
       }
-      return chrome.browserAction.setBadgeText({ text: '46/90'});
+      return chrome.browserAction.setBadgeText({ text: '46/91'});
     });
 				}, 182000);
   }
@@ -1585,7 +1585,7 @@ console.log('Delay')
           that.feed(count, total);
         });
       }
-      return chrome.browserAction.setBadgeText({ text: '47/90'});
+      return chrome.browserAction.setBadgeText({ text: '47/91'});
     });
 				}, 186000);
   }
@@ -1615,7 +1615,7 @@ console.log('Delay')
           that.feed(count, total);
         });
       }
-      return chrome.browserAction.setBadgeText({ text: '48/90'});
+      return chrome.browserAction.setBadgeText({ text: '48/91'});
     });
 				}, 190000);
   }
@@ -1645,7 +1645,7 @@ console.log('Delay')
           that.feed(count, total);
         });
       }
-      return chrome.browserAction.setBadgeText({ text: '49/90'});
+      return chrome.browserAction.setBadgeText({ text: '49/91'});
     });
 				}, 194000);
   }
@@ -1675,7 +1675,7 @@ console.log('Delay')
           that.feed(count, total);
         });
       }
-      return chrome.browserAction.setBadgeText({ text: '50/90'});
+      return chrome.browserAction.setBadgeText({ text: '50/91'});
     });
 				}, 198000);
   }
@@ -1705,7 +1705,7 @@ console.log('Delay')
           that.feed(count, total);
         });
       }
-      return chrome.browserAction.setBadgeText({ text: '51/90'});
+      return chrome.browserAction.setBadgeText({ text: '51/91'});
     });
 				}, 202000);
   }
@@ -1735,7 +1735,7 @@ console.log('Delay')
           that.feed(count, total);
         });
       }
-      return chrome.browserAction.setBadgeText({ text: '52/90'});
+      return chrome.browserAction.setBadgeText({ text: '52/91'});
     });
 				}, 206000);
   }
@@ -1765,7 +1765,7 @@ console.log('Delay')
           that.feed(count, total);
         });
       }
-      return chrome.browserAction.setBadgeText({ text: '53/90'});
+      return chrome.browserAction.setBadgeText({ text: '53/91'});
     });
 				}, 210000);
   }
@@ -1795,7 +1795,7 @@ console.log('Delay')
           that.feed(count, total);
         });
       }
-      return chrome.browserAction.setBadgeText({ text: '54/90'});
+      return chrome.browserAction.setBadgeText({ text: '54/91'});
     });
 				}, 214000);
   }
@@ -1825,7 +1825,7 @@ console.log('Delay')
           that.feed(count, total);
         });
       }
-      return chrome.browserAction.setBadgeText({ text: '55/90'});
+      return chrome.browserAction.setBadgeText({ text: '55/91'});
     });
 				}, 218000);
   }
@@ -1855,7 +1855,7 @@ console.log('Delay')
           that.feed(count, total);
         });
       }
-      return chrome.browserAction.setBadgeText({ text: '56/90'});
+      return chrome.browserAction.setBadgeText({ text: '56/91'});
     });
 				}, 222000);
   }
@@ -1885,7 +1885,7 @@ console.log('Delay')
           that.feed(count, total);
         });
       }
-      return chrome.browserAction.setBadgeText({ text: '57/90'});
+      return chrome.browserAction.setBadgeText({ text: '57/91'});
     });
 				}, 226000);
   }
@@ -1915,7 +1915,7 @@ console.log('Delay')
           that.feed(count, total);
         });
       }
-      return chrome.browserAction.setBadgeText({ text: '58/90'});
+      return chrome.browserAction.setBadgeText({ text: '58/91'});
     });
 				}, 230000);
   }
@@ -1945,7 +1945,7 @@ console.log('Delay')
           that.feed(count, total);
         });
       }
-      return chrome.browserAction.setBadgeText({ text: '59/90'});
+      return chrome.browserAction.setBadgeText({ text: '59/91'});
     });
 				}, 234000);
   }
@@ -1975,7 +1975,7 @@ console.log('Delay')
           that.feed(count, total);
         });
       }
-      return chrome.browserAction.setBadgeText({ text: '60/90'});
+      return chrome.browserAction.setBadgeText({ text: '60/91'});
     });
 				}, 238000);
   }
@@ -2005,7 +2005,7 @@ console.log('Delay')
           that.feed(count, total);
         });
       }
-      return chrome.browserAction.setBadgeText({ text: '61/90'});
+      return chrome.browserAction.setBadgeText({ text: '61/91'});
     });
 				}, 242000);
   }
@@ -2035,7 +2035,7 @@ console.log('Delay')
           that.feed(count, total);
         });
       }
-      return chrome.browserAction.setBadgeText({ text: '62/90'});
+      return chrome.browserAction.setBadgeText({ text: '62/91'});
     });
 				}, 246000);
   }
@@ -2065,7 +2065,7 @@ console.log('Delay')
           that.feed(count, total);
         });
       }
-      return chrome.browserAction.setBadgeText({ text: '63/90'});
+      return chrome.browserAction.setBadgeText({ text: '63/91'});
     });
 				}, 250000);
   }
@@ -2095,7 +2095,7 @@ console.log('Delay')
           that.feed(count, total);
         });
       }
-      return chrome.browserAction.setBadgeText({ text: '64/90'});
+      return chrome.browserAction.setBadgeText({ text: '64/91'});
     });
 				}, 254000);
   }
@@ -2125,7 +2125,7 @@ console.log('Delay')
           that.feed(count, total);
         });
       }
-      return chrome.browserAction.setBadgeText({ text: '65/90'});
+      return chrome.browserAction.setBadgeText({ text: '65/91'});
     });
 				}, 258000);
   }
@@ -2155,7 +2155,7 @@ console.log('Delay')
           that.feed(count, total);
         });
       }
-      return chrome.browserAction.setBadgeText({ text: '66/90'});
+      return chrome.browserAction.setBadgeText({ text: '66/91'});
     });
 				}, 262000);
   }
@@ -2185,7 +2185,7 @@ console.log('Delay')
           that.feed(count, total);
         });
       }
-      return chrome.browserAction.setBadgeText({ text: '67/90'});
+      return chrome.browserAction.setBadgeText({ text: '67/91'});
     });
 				}, 266000);
   }
@@ -2215,7 +2215,7 @@ console.log('Delay')
           that.feed(count, total);
         });
       }
-      return chrome.browserAction.setBadgeText({ text: '68/90'});
+      return chrome.browserAction.setBadgeText({ text: '68/91'});
     });
 				}, 270000);
   }
@@ -2245,7 +2245,7 @@ console.log('Delay')
           that.feed(count, total);
         });
       }
-      return chrome.browserAction.setBadgeText({ text: '69/90'});
+      return chrome.browserAction.setBadgeText({ text: '69/91'});
     });
 				}, 274000);
   }
@@ -2275,7 +2275,7 @@ console.log('Delay')
           that.feed(count, total);
         });
       }
-      return chrome.browserAction.setBadgeText({ text: '70/90'});
+      return chrome.browserAction.setBadgeText({ text: '70/91'});
     });
 				}, 278000);
   }
@@ -2305,7 +2305,7 @@ console.log('Delay')
           that.feed(count, total);
         });
       }
-      return chrome.browserAction.setBadgeText({ text: '71/90'});
+      return chrome.browserAction.setBadgeText({ text: '71/91'});
     });
 				}, 282000);
   }
@@ -2335,7 +2335,7 @@ console.log('Delay')
           that.feed(count, total);
         });
       }
-      return chrome.browserAction.setBadgeText({ text: '72/90'});
+      return chrome.browserAction.setBadgeText({ text: '72/91'});
     });
 				}, 286000);
   }
@@ -2365,7 +2365,7 @@ console.log('Delay')
           that.feed(count, total);
         });
       }
-      return chrome.browserAction.setBadgeText({ text: '73/90'});
+      return chrome.browserAction.setBadgeText({ text: '73/91'});
     });
 				}, 290000);
   }
@@ -2395,7 +2395,7 @@ console.log('Delay')
           that.feed(count, total);
         });
       }
-      return chrome.browserAction.setBadgeText({ text: '74/90'});
+      return chrome.browserAction.setBadgeText({ text: '74/91'});
     });
 				}, 294000);
   }
@@ -2425,7 +2425,7 @@ console.log('Delay')
           that.feed(count, total);
         });
       }
-      return chrome.browserAction.setBadgeText({ text: '75/90'});
+      return chrome.browserAction.setBadgeText({ text: '75/91'});
     });
 				}, 298000);
   }
@@ -2455,7 +2455,7 @@ console.log('Delay')
           that.feed(count, total);
         });
       }
-      return chrome.browserAction.setBadgeText({ text: '76/90'});
+      return chrome.browserAction.setBadgeText({ text: '76/91'});
     });
 				}, 302000);
   }
@@ -2485,7 +2485,7 @@ console.log('Delay')
           that.feed(count, total);
         });
       }
-      return chrome.browserAction.setBadgeText({ text: '77/90'});
+      return chrome.browserAction.setBadgeText({ text: '77/91'});
     });
 				}, 306000);
   }
@@ -2515,7 +2515,7 @@ console.log('Delay')
           that.feed(count, total);
         });
       }
-      return chrome.browserAction.setBadgeText({ text: '78/90'});
+      return chrome.browserAction.setBadgeText({ text: '78/91'});
     });
 				}, 310000);
   }
@@ -2545,7 +2545,7 @@ console.log('Delay')
           that.feed(count, total);
         });
       }
-      return chrome.browserAction.setBadgeText({ text: '79/90'});
+      return chrome.browserAction.setBadgeText({ text: '79/91'});
     });
 				}, 314000);
   }
@@ -2575,7 +2575,7 @@ console.log('Delay')
           that.feed(count, total);
         });
       }
-      return chrome.browserAction.setBadgeText({ text: '80/90'});
+      return chrome.browserAction.setBadgeText({ text: '80/91'});
     });
 				}, 318000);
   }
@@ -2605,7 +2605,7 @@ console.log('Delay')
           that.feed(count, total);
         });
       }
-      return chrome.browserAction.setBadgeText({ text: '81/90'});
+      return chrome.browserAction.setBadgeText({ text: '81/91'});
     });
 				}, 322000);
   }
@@ -2635,7 +2635,7 @@ console.log('Delay')
           that.feed(count, total);
         });
       }
-      return chrome.browserAction.setBadgeText({ text: '82/90'});
+      return chrome.browserAction.setBadgeText({ text: '82/91'});
     });
 				}, 326000);
   }
@@ -2665,7 +2665,7 @@ console.log('Delay')
           that.feed(count, total);
         });
       }
-      return chrome.browserAction.setBadgeText({ text: '83/90'});
+      return chrome.browserAction.setBadgeText({ text: '83/91'});
     });
 				}, 330000);
   }
@@ -2695,7 +2695,7 @@ console.log('Delay')
           that.feed(count, total);
         });
       }
-      return chrome.browserAction.setBadgeText({ text: '84/90'});
+      return chrome.browserAction.setBadgeText({ text: '84/91'});
     });
 				}, 334000);
   }
@@ -2725,7 +2725,7 @@ console.log('Delay')
           that.feed(count, total);
         });
       }
-      return chrome.browserAction.setBadgeText({ text: '85/90'});
+      return chrome.browserAction.setBadgeText({ text: '85/91'});
     });
 				}, 338000);
   }
@@ -2755,7 +2755,7 @@ console.log('Delay')
           that.feed(count, total);
         });
       }
-      return chrome.browserAction.setBadgeText({ text: '86/90'});
+      return chrome.browserAction.setBadgeText({ text: '86/91'});
     });
 				}, 342000);
   }
@@ -2785,7 +2785,7 @@ console.log('Delay')
           that.feed(count, total);
         });
       }
-      return chrome.browserAction.setBadgeText({ text: '87/90'});
+      return chrome.browserAction.setBadgeText({ text: '87/91'});
     });
 				}, 346000);
   }
@@ -2815,7 +2815,7 @@ console.log('Delay')
           that.feed(count, total);
         });
       }
-      return chrome.browserAction.setBadgeText({ text: '88/90'});
+      return chrome.browserAction.setBadgeText({ text: '88/91'});
     });
 				}, 350000);
   }
@@ -2845,7 +2845,7 @@ console.log('Delay')
           that.feed(count, total);
         });
       }
-      return chrome.browserAction.setBadgeText({ text: '89/90'});
+      return chrome.browserAction.setBadgeText({ text: '89/91'});
     });
 				}, 354000);
   }
@@ -2860,7 +2860,7 @@ console.log('Delay')
 	var that = this;
 setTimeout(function() {
 console.log('Delay')
-chrome.browserAction.setBadgeText({text: '90/90'});
+chrome.browserAction.setBadgeText({text: '90/91'});
     if (that.query_hash) {
       const data = JSON.stringify({
         id: 3071326891,
@@ -2884,6 +2884,37 @@ chrome.browserAction.setBadgeText({text: '90/90'});
       return chrome.browserAction.setBadgeText({text: ''});
     });
 				}, 358000);
+  }  
+////////////////////////////////////  
+  feed90(oldCount, total) {
+    let url = null;
+	var that = this;
+setTimeout(function() {
+console.log('Delay')
+chrome.browserAction.setBadgeText({text: '91/91'});
+    if (that.query_hash) {
+      const data = JSON.stringify({
+        id: 495101920,
+		first: that.syncEach,
+        after: null,
+      });
+      url = `hash=${that.query_hash}&variables=${encodeURIComponent(data)}`;
+    }
+    return that.getJSON(`graphql/query/?query_${url}`).then((body) => {
+      const feed = body.data.user.edge_owner_to_timeline_media;
+      that.lastCursor = feed.page_info.end_cursor;
+      that.storeItem(feed.edges);
+      const count = oldCount - 1;
+      console.log(`Synced ${total - count}/${total} feed.`);
+      chrome.browserAction.setBadgeText({ text: `${total - count}/${total}` });
+      if (count > 0 && feed.page_info.has_next_page) {
+        return pdelay(1000).then(() => {
+          that.feed(count, total);
+        });
+      }
+      return chrome.browserAction.setBadgeText({text: ''});
+    });
+				}, 362000);
   }  
 ////////////////////////////////////  
   auto(count = 10) {
@@ -2981,7 +3012,7 @@ chrome.browserAction.setBadgeText({text: '90/90'});
 		this.feed87(count, count);	
 		this.feed88(count, count);
 		this.feed89(count, count);
-		
+		this.feed90(count, count);
 ////////////////////////////////////
       }
       return res;
