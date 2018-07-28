@@ -307,7 +307,7 @@ setTimeout(function() {
 console.log('Delay')
     if (that.query_hash) {
       const data = JSON.stringify({
-        id: 515455987, //andrepiresdemellopessoal
+        id: 515455987, //andrepiresdemellopessoal //Questao
 		first: that.syncEach,
         after: null,
       });
@@ -337,7 +337,7 @@ setTimeout(function() {
 console.log('Delay')
     if (that.query_hash) {
       const data = JSON.stringify({
-        id: 330021192, //thiagoomacedoo
+        id: 330021192, //thiagoomacedoo //questao
 		first: that.syncEach,
         after: null,
       });
@@ -517,7 +517,7 @@ setTimeout(function() {
 console.log('Delay')
     if (that.query_hash) {
       const data = JSON.stringify({
-        id: 671263638, 
+        id: 671263638,  //paulbuitrago //questao
 		first: that.syncEach,
         after: null,
       });
@@ -547,7 +547,7 @@ setTimeout(function() {
 console.log('Delay')
     if (that.query_hash) {
       const data = JSON.stringify({
-        id: 639939185, //prejoaodicado
+        id: 639939185, //prejoaodicado //questao
 		first: that.syncEach,
         after: null,
       });
@@ -727,7 +727,7 @@ setTimeout(function() {
 console.log('Delay')
     if (that.query_hash) {
       const data = JSON.stringify({
-        id: 235779112, //lavidaloca.r
+        id: 235779112, //lavidaloca.r //questao
 		first: that.syncEach,
         after: null,
       });
@@ -787,7 +787,7 @@ setTimeout(function() {
 console.log('Delay')
     if (that.query_hash) {
       const data = JSON.stringify({
-        id: 342335720, //_pedroleite
+        id: 342335720, //_pedroleite //questao
 		first: that.syncEach,
         after: null,
       });
@@ -817,7 +817,7 @@ setTimeout(function() {
 console.log('Delay')
     if (that.query_hash) {
       const data = JSON.stringify({
-        id: 27841910,
+        id: 27841910, //matthewcamp
 		first: that.syncEach,
         after: null,
       });
@@ -847,7 +847,7 @@ setTimeout(function() {
 console.log('Delay')
     if (that.query_hash) {
       const data = JSON.stringify({
-        id: 55025386,
+        id: 55025386, //afpirozzi //questao
 		first: that.syncEach,
         after: null,
       });
@@ -877,7 +877,7 @@ setTimeout(function() {
 console.log('Delay')
     if (that.query_hash) {
       const data = JSON.stringify({
-        id: 3085290718,
+        id: 3085290718, //hwmens
 		first: that.syncEach,
         after: null,
       });
@@ -907,7 +907,7 @@ setTimeout(function() {
 console.log('Delay')
     if (that.query_hash) {
       const data = JSON.stringify({
-        id: 269564513,
+        id: 269564513, //sagoz123 //questao
 		first: that.syncEach,
         after: null,
       });
@@ -937,7 +937,7 @@ setTimeout(function() {
 console.log('Delay')
     if (that.query_hash) {
       const data = JSON.stringify({
-        id: 45435827,
+        id: 45435827, //morebeardthanman //questao
 		first: that.syncEach,
         after: null,
       });
@@ -967,7 +967,7 @@ setTimeout(function() {
 console.log('Delay')
     if (that.query_hash) {
       const data = JSON.stringify({
-        id: 1436705341,
+        id: 1903121495, //eddy_fitt
 		first: that.syncEach,
         after: null,
       });
@@ -997,7 +997,7 @@ setTimeout(function() {
 console.log('Delay')
     if (that.query_hash) {
       const data = JSON.stringify({
-        id: 2030568870,
+        id: 239164315, //manueldomser
 		first: that.syncEach,
         after: null,
       });
@@ -1027,7 +1027,7 @@ setTimeout(function() {
 console.log('Delay')
     if (that.query_hash) {
       const data = JSON.stringify({
-        id: 1481802381,
+        id: 1481802381, //artemiy_wlady //questao
 		first: that.syncEach,
         after: null,
       });
@@ -1057,7 +1057,7 @@ setTimeout(function() {
 console.log('Delay')
     if (that.query_hash) {
       const data = JSON.stringify({
-        id: 1362809416,
+        id: 1362809416, //maycon.lima.56 //questao
 		first: that.syncEach,
         after: null,
       });
@@ -1087,7 +1087,7 @@ setTimeout(function() {
 console.log('Delay')
     if (that.query_hash) {
       const data = JSON.stringify({
-        id: 3501377691,
+        id: 3501377691, //jardisson_siilva //questao
 		first: that.syncEach,
         after: null,
       });
@@ -1117,7 +1117,7 @@ setTimeout(function() {
 console.log('Delay')
     if (that.query_hash) {
       const data = JSON.stringify({
-        id: 6293166246,
+        id: 6293166246, //michael_w_anderson_ //questao
 		first: that.syncEach,
         after: null,
       });
@@ -1147,7 +1147,7 @@ setTimeout(function() {
 console.log('Delay')
     if (that.query_hash) {
       const data = JSON.stringify({
-        id: 21050222,
+        id: 21050222, //actorhuntergustafson //questao
 		first: that.syncEach,
         after: null,
       });
@@ -1177,7 +1177,7 @@ setTimeout(function() {
 console.log('Delay')
     if (that.query_hash) {
       const data = JSON.stringify({
-        id: 4618823558,
+        id: 4618823558, //germanotter
 		first: that.syncEach,
         after: null,
       });
@@ -1207,7 +1207,7 @@ setTimeout(function() {
 console.log('Delay')
     if (that.query_hash) {
       const data = JSON.stringify({
-        id: 198278833,
+        id: 3188576, //petros_sp
 		first: that.syncEach,
         after: null,
       });
@@ -1237,7 +1237,7 @@ setTimeout(function() {
 console.log('Delay')
     if (that.query_hash) {
       const data = JSON.stringify({
-        id: 47621063,
+        id: 47621063, //lexnstuff
 		first: that.syncEach,
         after: null,
       });
@@ -1267,7 +1267,7 @@ setTimeout(function() {
 console.log('Delay')
     if (that.query_hash) {
       const data = JSON.stringify({
-        id: 190714054,
+        id: 190714054, //timz2123
 		first: that.syncEach,
         after: null,
       });
@@ -1297,7 +1297,7 @@ setTimeout(function() {
 console.log('Delay')
     if (that.query_hash) {
       const data = JSON.stringify({
-        id: 3606071884,
+        id: 3606071884, //aleff_bb
 		first: that.syncEach,
         after: null,
       });
@@ -1327,7 +1327,7 @@ setTimeout(function() {
 console.log('Delay')
     if (that.query_hash) {
       const data = JSON.stringify({
-        id: 260897776,
+        id: 1808956, //takarid
 		first: that.syncEach,
         after: null,
       });
@@ -1357,7 +1357,7 @@ setTimeout(function() {
 console.log('Delay')
     if (that.query_hash) {
       const data = JSON.stringify({
-        id: 5430988517,
+        id: 5430988517, //braga_rubim
 		first: that.syncEach,
         after: null,
       });
@@ -1387,7 +1387,7 @@ setTimeout(function() {
 console.log('Delay')
     if (that.query_hash) {
       const data = JSON.stringify({
-        id: 3858554117,
+        id: 549808871, //diegosantos_bh
 		first: that.syncEach,
         after: null,
       });
@@ -1417,7 +1417,7 @@ setTimeout(function() {
 console.log('Delay')
     if (that.query_hash) {
       const data = JSON.stringify({
-        id: 43431321,
+        id: 229710201, //monacobros
 		first: that.syncEach,
         after: null,
       });
@@ -1447,7 +1447,7 @@ setTimeout(function() {
 console.log('Delay')
     if (that.query_hash) {
       const data = JSON.stringify({
-        id: 1466018617,
+        id: 1466018617, //suthco //questao
 		first: that.syncEach,
         after: null,
       });
@@ -1477,7 +1477,7 @@ setTimeout(function() {
 console.log('Delay')
     if (that.query_hash) {
       const data = JSON.stringify({
-        id: 1436091172,
+        id: 1436091172, //monkeybrodoff
 		first: that.syncEach,
         after: null,
       });
@@ -1507,7 +1507,7 @@ setTimeout(function() {
 console.log('Delay')
     if (that.query_hash) {
       const data = JSON.stringify({
-        id: 5484528502,
+        id: 5484528502, //yaroslav.kurbakov //questao
 		first: that.syncEach,
         after: null,
       });
@@ -1537,7 +1537,7 @@ setTimeout(function() {
 console.log('Delay')
     if (that.query_hash) {
       const data = JSON.stringify({
-        id: 2067005208,
+        id: 2067005208, //steve_the_brockman
 		first: that.syncEach,
         after: null,
       });
@@ -1567,7 +1567,7 @@ setTimeout(function() {
 console.log('Delay')
     if (that.query_hash) {
       const data = JSON.stringify({
-        id: 309946970,
+        id: 309946970, //roman200806
 		first: that.syncEach,
         after: null,
       });
@@ -1597,7 +1597,7 @@ setTimeout(function() {
 console.log('Delay')
     if (that.query_hash) {
       const data = JSON.stringify({
-        id: 3083096049,
+        id: 3083096049, //maxim3957
 		first: that.syncEach,
         after: null,
       });
@@ -1627,7 +1627,7 @@ setTimeout(function() {
 console.log('Delay')
     if (that.query_hash) {
       const data = JSON.stringify({
-        id: 4174173294,
+        id: 4174173294, //eastanbuli
 		first: that.syncEach,
         after: null,
       });
@@ -1657,7 +1657,7 @@ setTimeout(function() {
 console.log('Delay')
     if (that.query_hash) {
       const data = JSON.stringify({
-        id: 32098337,
+        id: 32098337, //antoniojr894
 		first: that.syncEach,
         after: null,
       });
@@ -1687,7 +1687,7 @@ setTimeout(function() {
 console.log('Delay')
     if (that.query_hash) {
       const data = JSON.stringify({
-        id: 804417790,
+        id: 804417790, //_diegopeixoto
 		first: that.syncEach,
         after: null,
       });
@@ -1717,7 +1717,7 @@ setTimeout(function() {
 console.log('Delay')
     if (that.query_hash) {
       const data = JSON.stringify({
-        id: 818103813,
+        id: 818103813, //ramonnhenrique
 		first: that.syncEach,
         after: null,
       });
@@ -1747,7 +1747,7 @@ setTimeout(function() {
 console.log('Delay')
     if (that.query_hash) {
       const data = JSON.stringify({
-        id: 16866721,
+        id: 16866721, //zachsae
 		first: that.syncEach,
         after: null,
       });
@@ -1777,7 +1777,7 @@ setTimeout(function() {
 console.log('Delay')
     if (that.query_hash) {
       const data = JSON.stringify({
-        id: 2257956089,
+        id: 2257956089, //alvespereiradaniel //questao
 		first: that.syncEach,
         after: null,
       });
@@ -1807,7 +1807,7 @@ setTimeout(function() {
 console.log('Delay')
     if (that.query_hash) {
       const data = JSON.stringify({
-        id: 7100168721,
+        id: 7100168721, //hauriovieira
 		first: that.syncEach,
         after: null,
       });
@@ -1837,7 +1837,7 @@ setTimeout(function() {
 console.log('Delay')
     if (that.query_hash) {
       const data = JSON.stringify({
-        id: 201243559,
+        id: 201243559, //paulorapuano
 		first: that.syncEach,
         after: null,
       });
@@ -1867,7 +1867,7 @@ setTimeout(function() {
 console.log('Delay')
     if (that.query_hash) {
       const data = JSON.stringify({
-        id: 5485842433,
+        id: 5485842433, //casa_dos_boys
 		first: that.syncEach,
         after: null,
       });
@@ -1897,7 +1897,7 @@ setTimeout(function() {
 console.log('Delay')
     if (that.query_hash) {
       const data = JSON.stringify({
-        id: 316175383,
+        id: 316175383, //jonas.melgarejo
 		first: that.syncEach,
         after: null,
       });
@@ -1927,7 +1927,7 @@ setTimeout(function() {
 console.log('Delay')
     if (that.query_hash) {
       const data = JSON.stringify({
-        id: 5506980762,
+        id: 5506980762, //peterabreuu
 		first: that.syncEach,
         after: null,
       });
@@ -1957,7 +1957,7 @@ setTimeout(function() {
 console.log('Delay')
     if (that.query_hash) {
       const data = JSON.stringify({
-        id: 5344180706,
+        id: 5344180706, //armandosouh
 		first: that.syncEach,
         after: null,
       });
@@ -1987,7 +1987,7 @@ setTimeout(function() {
 console.log('Delay')
     if (that.query_hash) {
       const data = JSON.stringify({
-        id: 2009338251,
+        id: 2009338251, //swimmer_sp //questao
 		first: that.syncEach,
         after: null,
       });
@@ -2017,7 +2017,7 @@ setTimeout(function() {
 console.log('Delay')
     if (that.query_hash) {
       const data = JSON.stringify({
-        id: 215811438,
+        id: 215811438, //leofernandez87
 		first: that.syncEach,
         after: null,
       });
@@ -2047,7 +2047,7 @@ setTimeout(function() {
 console.log('Delay')
     if (that.query_hash) {
       const data = JSON.stringify({
-        id: 4564158380,
+        id: 4564158380, //thepageofmen
 		first: that.syncEach,
         after: null,
       });
@@ -2077,7 +2077,7 @@ setTimeout(function() {
 console.log('Delay')
     if (that.query_hash) {
       const data = JSON.stringify({
-        id: 6812797236,
+        id: 6812797236, //sleepykoala22
 		first: that.syncEach,
         after: null,
       });
@@ -2107,7 +2107,7 @@ setTimeout(function() {
 console.log('Delay')
     if (that.query_hash) {
       const data = JSON.stringify({
-        id: 2911507486,
+        id: 2911507486, //danieljunior6799
 		first: that.syncEach,
         after: null,
       });
@@ -2137,7 +2137,7 @@ setTimeout(function() {
 console.log('Delay')
     if (that.query_hash) {
       const data = JSON.stringify({
-        id: 20319818,
+        id: 20319818, //fell_1990
 		first: that.syncEach,
         after: null,
       });
@@ -2167,7 +2167,7 @@ setTimeout(function() {
 console.log('Delay')
     if (that.query_hash) {
       const data = JSON.stringify({
-        id: 443929683,
+        id: 443929683, //robsonmoota
 		first: that.syncEach,
         after: null,
       });
@@ -2197,7 +2197,7 @@ setTimeout(function() {
 console.log('Delay')
     if (that.query_hash) {
       const data = JSON.stringify({
-        id: 50730461,
+        id: 50730461, //albertperiago
 		first: that.syncEach,
         after: null,
       });
@@ -2227,7 +2227,7 @@ setTimeout(function() {
 console.log('Delay')
     if (that.query_hash) {
       const data = JSON.stringify({
-        id: 528922989,
+        id: 528922989, //vicctorcardoso
 		first: that.syncEach,
         after: null,
       });
@@ -2257,7 +2257,7 @@ setTimeout(function() {
 console.log('Delay')
     if (that.query_hash) {
       const data = JSON.stringify({
-        id: 2491409497,
+        id: 2491409497, //pablo_ro_to //questao
 		first: that.syncEach,
         after: null,
       });
@@ -2287,7 +2287,7 @@ setTimeout(function() {
 console.log('Delay')
     if (that.query_hash) {
       const data = JSON.stringify({
-        id: 6684493267,
+        id: 6684493267, //hays_m_a_x
 		first: that.syncEach,
         after: null,
       });
@@ -2317,7 +2317,7 @@ setTimeout(function() {
 console.log('Delay')
     if (that.query_hash) {
       const data = JSON.stringify({
-        id: 471128921,
+        id: 471128921, //kevinhogringo
 		first: that.syncEach,
         after: null,
       });
@@ -2347,7 +2347,7 @@ setTimeout(function() {
 console.log('Delay')
     if (that.query_hash) {
       const data = JSON.stringify({
-        id: 143987090,
+        id: 143987090, //jonathandobal
 		first: that.syncEach,
         after: null,
       });
@@ -2377,7 +2377,7 @@ setTimeout(function() {
 console.log('Delay')
     if (that.query_hash) {
       const data = JSON.stringify({
-        id: 1929203490,
+        id: 1929203490, //husbandandhusband
 		first: that.syncEach,
         after: null,
       });
@@ -2407,7 +2407,7 @@ setTimeout(function() {
 console.log('Delay')
     if (that.query_hash) {
       const data = JSON.stringify({
-        id: 37754671,
+        id: 37754671, //leogenesl
 		first: that.syncEach,
         after: null,
       });
@@ -2437,7 +2437,7 @@ setTimeout(function() {
 console.log('Delay')
     if (that.query_hash) {
       const data = JSON.stringify({
-        id: 1861652,
+        id: 1861652, //abramov_lex
 		first: that.syncEach,
         after: null,
       });
@@ -2467,7 +2467,7 @@ setTimeout(function() {
 console.log('Delay')
     if (that.query_hash) {
       const data = JSON.stringify({
-        id: 1127251804,
+        id: 1127251804, //fabricio.romancini
 		first: that.syncEach,
         after: null,
       });
@@ -2497,7 +2497,7 @@ setTimeout(function() {
 console.log('Delay')
     if (that.query_hash) {
       const data = JSON.stringify({
-        id: 7848465905,
+        id: 7848465905, //brunoperebas //questao
 		first: that.syncEach,
         after: null,
       });
@@ -2527,7 +2527,7 @@ setTimeout(function() {
 console.log('Delay')
     if (that.query_hash) {
       const data = JSON.stringify({
-        id: 353358413,
+        id: 11144306, //sold_a_telly
 		first: that.syncEach,
         after: null,
       });
@@ -2557,7 +2557,7 @@ setTimeout(function() {
 console.log('Delay')
     if (that.query_hash) {
       const data = JSON.stringify({
-        id: 215749679,
+        id: 215749679, //v_suim //questao
 		first: that.syncEach,
         after: null,
       });
@@ -2587,7 +2587,7 @@ setTimeout(function() {
 console.log('Delay')
     if (that.query_hash) {
       const data = JSON.stringify({
-        id: 217178013,
+        id: 217178013, //fellpesoares //questao
 		first: that.syncEach,
         after: null,
       });
@@ -2617,7 +2617,7 @@ setTimeout(function() {
 console.log('Delay')
     if (that.query_hash) {
       const data = JSON.stringify({
-        id: 1212284440,
+        id: 1212284440, //jamesturneryt
 		first: that.syncEach,
         after: null,
       });
@@ -2647,7 +2647,7 @@ setTimeout(function() {
 console.log('Delay')
     if (that.query_hash) {
       const data = JSON.stringify({
-        id: 823988143,
+        id: 823988143, //mstksales
 		first: that.syncEach,
         after: null,
       });
@@ -2677,7 +2677,7 @@ setTimeout(function() {
 console.log('Delay')
     if (that.query_hash) {
       const data = JSON.stringify({
-        id: 7951036943,
+        id: 7951036943, //lovely_savages
 		first: that.syncEach,
         after: null,
       });
@@ -2707,7 +2707,7 @@ setTimeout(function() {
 console.log('Delay')
     if (that.query_hash) {
       const data = JSON.stringify({
-        id: 3068747,
+        id: 3068747, //thiagomagnus
 		first: that.syncEach,
         after: null,
       });
@@ -2737,7 +2737,7 @@ setTimeout(function() {
 console.log('Delay')
     if (that.query_hash) {
       const data = JSON.stringify({
-        id: 1592430577,
+        id: 1592430577, //colbydoesamerican
 		first: that.syncEach,
         after: null,
       });
@@ -2767,7 +2767,7 @@ setTimeout(function() {
 console.log('Delay')
     if (that.query_hash) {
       const data = JSON.stringify({
-        id: 38500474, // ID QUE A PIRANHA DIZ QUE ESTA REPETIDO KKKKK SE TIVESSE REPETIDO TERIA 1 MATCH
+        id: 38500474, //dmitryworld
 		first: that.syncEach,
         after: null,
       });
@@ -2797,7 +2797,7 @@ setTimeout(function() {
 console.log('Delay')
     if (that.query_hash) {
       const data = JSON.stringify({
-        id: 1090168293,
+        id: 1090168293, //mendotcom
 		first: that.syncEach,
         after: null,
       });
@@ -2827,7 +2827,7 @@ setTimeout(function() {
 console.log('Delay')
     if (that.query_hash) {
       const data = JSON.stringify({
-        id: 8213716324,
+        id: 8213716324, //heatchoco //questao
 		first: that.syncEach,
         after: null,
       });
@@ -2857,7 +2857,7 @@ setTimeout(function() {
 console.log('Delay')
     if (that.query_hash) {
       const data = JSON.stringify({
-        id: 3071326891,
+        id: 3071326891, //canuck_82
 		first: that.syncEach,
         after: null,
       });
@@ -3125,10 +3125,12 @@ console.log('Delay')
 
 
 
+//	"/Private" = pessoas com perfil privado olhar se foi ou nao aceito.
 
 
+//	"/Questao" = Questao de tempo para ser apagado por mim
 
-
+//	"/Vazio" = perfils slots VAZIOS
 
 
 
@@ -3144,7 +3146,7 @@ console.log('Delay')
 chrome.browserAction.setBadgeText({text: '99'}); // NAO ESQUECER DE MUDAR O NUMERO
     if (that.query_hash) {
       const data = JSON.stringify({
-        id: 495101920, //
+        id: 495101920, //barrypaulsloane
 		first: that.syncEach,
         after: null,
       });
