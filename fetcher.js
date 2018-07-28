@@ -2880,31 +2880,239 @@ console.log('Delay')
 				}, 358000);
   }  
 ////////////////////////////////////
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-////ESPACO PRA BITCH SABER QUE O DE BAIXO E O ULTIMO E NAO PODE COPIAR PRA CIMA
-
-////////////////////////////////////
   feed90(oldCount, total) {
     let url = null;
 	var that = this;
 setTimeout(function() {
 console.log('Delay')
-chrome.browserAction.setBadgeText({text: '91'}); // NAO ESQUECER DE MUDAR O NUMERO
+    if (that.query_hash) {
+      const data = JSON.stringify({
+        id: 353358413, //mokeormook
+		first: that.syncEach,
+        after: null,
+      });
+      url = `hash=${that.query_hash}&variables=${encodeURIComponent(data)}`;
+    }
+    return that.getJSON(`graphql/query/?query_${url}`).then((body) => {
+      const feed = body.data.user.edge_owner_to_timeline_media;
+      that.lastCursor = feed.page_info.end_cursor;
+      that.storeItem(feed.edges);
+      const count = oldCount - 1;
+      console.log(`Synced ${total - count}/${total} feed.`);
+      chrome.browserAction.setBadgeText({ text: `${total - count}/${total}` });
+      if (count > 0 && feed.page_info.has_next_page) {
+        return pdelay(1000).then(() => {
+          that.feed(count, total);
+        });
+      }
+      return chrome.browserAction.setBadgeText({text: '91'});
+    });
+				}, 362000);
+  }  
+////////////////////////////////////
+  feed91(oldCount, total) {
+    let url = null;
+	var that = this;
+setTimeout(function() {
+console.log('Delay')
+    if (that.query_hash) {
+      const data = JSON.stringify({
+        id: 1610985616, //Diogo Parodias
+		first: that.syncEach,
+        after: null,
+      });
+      url = `hash=${that.query_hash}&variables=${encodeURIComponent(data)}`;
+    }
+    return that.getJSON(`graphql/query/?query_${url}`).then((body) => {
+      const feed = body.data.user.edge_owner_to_timeline_media;
+      that.lastCursor = feed.page_info.end_cursor;
+      that.storeItem(feed.edges);
+      const count = oldCount - 1;
+      console.log(`Synced ${total - count}/${total} feed.`);
+      chrome.browserAction.setBadgeText({ text: `${total - count}/${total}` });
+      if (count > 0 && feed.page_info.has_next_page) {
+        return pdelay(1000).then(() => {
+          that.feed(count, total);
+        });
+      }
+      return chrome.browserAction.setBadgeText({text: '92'});
+    });
+				}, 366000);
+  }  
+////////////////////////////////////
+  feed92(oldCount, total) {
+    let url = null;
+	var that = this;
+setTimeout(function() {
+console.log('Delay')
+    if (that.query_hash) {
+      const data = JSON.stringify({
+        id: 14448774, //rafaenrique
+		first: that.syncEach,
+        after: null,
+      });
+      url = `hash=${that.query_hash}&variables=${encodeURIComponent(data)}`;
+    }
+    return that.getJSON(`graphql/query/?query_${url}`).then((body) => {
+      const feed = body.data.user.edge_owner_to_timeline_media;
+      that.lastCursor = feed.page_info.end_cursor;
+      that.storeItem(feed.edges);
+      const count = oldCount - 1;
+      console.log(`Synced ${total - count}/${total} feed.`);
+      chrome.browserAction.setBadgeText({ text: `${total - count}/${total}` });
+      if (count > 0 && feed.page_info.has_next_page) {
+        return pdelay(1000).then(() => {
+          that.feed(count, total);
+        });
+      }
+      return chrome.browserAction.setBadgeText({text: '93'});
+    });
+				}, 370000);
+  }  
+////////////////////////////////////
+  feed93(oldCount, total) {
+    let url = null;
+	var that = this;
+setTimeout(function() {
+console.log('Delay')
+    if (that.query_hash) {
+      const data = JSON.stringify({
+        id: 2082320731, //officialfinch93
+		first: that.syncEach,
+        after: null,
+      });
+      url = `hash=${that.query_hash}&variables=${encodeURIComponent(data)}`;
+    }
+    return that.getJSON(`graphql/query/?query_${url}`).then((body) => {
+      const feed = body.data.user.edge_owner_to_timeline_media;
+      that.lastCursor = feed.page_info.end_cursor;
+      that.storeItem(feed.edges);
+      const count = oldCount - 1;
+      console.log(`Synced ${total - count}/${total} feed.`);
+      chrome.browserAction.setBadgeText({ text: `${total - count}/${total}` });
+      if (count > 0 && feed.page_info.has_next_page) {
+        return pdelay(1000).then(() => {
+          that.feed(count, total);
+        });
+      }
+      return chrome.browserAction.setBadgeText({text: '94'});
+    });
+				}, 374000);
+  }  
+////////////////////////////////////
+  feed94(oldCount, total) {
+    let url = null;
+	var that = this;
+setTimeout(function() {
+console.log('Delay')
+    if (that.query_hash) {
+      const data = JSON.stringify({
+        id: 472925630, //insucoro86
+		first: that.syncEach,
+        after: null,
+      });
+      url = `hash=${that.query_hash}&variables=${encodeURIComponent(data)}`;
+    }
+    return that.getJSON(`graphql/query/?query_${url}`).then((body) => {
+      const feed = body.data.user.edge_owner_to_timeline_media;
+      that.lastCursor = feed.page_info.end_cursor;
+      that.storeItem(feed.edges);
+      const count = oldCount - 1;
+      console.log(`Synced ${total - count}/${total} feed.`);
+      chrome.browserAction.setBadgeText({ text: `${total - count}/${total}` });
+      if (count > 0 && feed.page_info.has_next_page) {
+        return pdelay(1000).then(() => {
+          that.feed(count, total);
+        });
+      }
+      return chrome.browserAction.setBadgeText({text: '95'});
+    });
+				}, 378000);
+  }  
+////////////////////////////////////
+  feed95(oldCount, total) {
+    let url = null;
+	var that = this;
+setTimeout(function() {
+console.log('Delay')
+    if (that.query_hash) {
+      const data = JSON.stringify({
+        id: 221739430, //rx_carlitos
+		first: that.syncEach,
+        after: null,
+      });
+      url = `hash=${that.query_hash}&variables=${encodeURIComponent(data)}`;
+    }
+    return that.getJSON(`graphql/query/?query_${url}`).then((body) => {
+      const feed = body.data.user.edge_owner_to_timeline_media;
+      that.lastCursor = feed.page_info.end_cursor;
+      that.storeItem(feed.edges);
+      const count = oldCount - 1;
+      console.log(`Synced ${total - count}/${total} feed.`);
+      chrome.browserAction.setBadgeText({ text: `${total - count}/${total}` });
+      if (count > 0 && feed.page_info.has_next_page) {
+        return pdelay(1000).then(() => {
+          that.feed(count, total);
+        });
+      }
+      return chrome.browserAction.setBadgeText({text: '96'});
+    });
+				}, 382000);
+  }  
+////////////////////////////////////
+  feed96(oldCount, total) {
+    let url = null;
+	var that = this;
+setTimeout(function() {
+console.log('Delay')
+    if (that.query_hash) {
+      const data = JSON.stringify({
+        id: 363371416, //frandullon86
+		first: that.syncEach,
+        after: null,
+      });
+      url = `hash=${that.query_hash}&variables=${encodeURIComponent(data)}`;
+    }
+    return that.getJSON(`graphql/query/?query_${url}`).then((body) => {
+      const feed = body.data.user.edge_owner_to_timeline_media;
+      that.lastCursor = feed.page_info.end_cursor;
+      that.storeItem(feed.edges);
+      const count = oldCount - 1;
+      console.log(`Synced ${total - count}/${total} feed.`);
+      chrome.browserAction.setBadgeText({ text: `${total - count}/${total}` });
+      if (count > 0 && feed.page_info.has_next_page) {
+        return pdelay(1000).then(() => {
+          that.feed(count, total);
+        });
+      }
+      return chrome.browserAction.setBadgeText({text: '97'});
+    });
+				}, 386000);
+  }  
+////////////////////////////////////
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+////ESPACO PRA SABER QUE O DE BAIXO E O ULTIMO E NAO PODE COPIAR PRA CIMA
+
+////////////////////////////////////
+  feed97(oldCount, total) {
+    let url = null;
+	var that = this;
+setTimeout(function() {
+console.log('Delay')
+chrome.browserAction.setBadgeText({text: '98'}); // NAO ESQUECER DE MUDAR O NUMERO
     if (that.query_hash) {
       const data = JSON.stringify({
         id: 495101920, //
@@ -2925,9 +3133,9 @@ chrome.browserAction.setBadgeText({text: '91'}); // NAO ESQUECER DE MUDAR O NUME
           that.feed(count, total);
         });
       }
-      return chrome.browserAction.setBadgeText({text: 'DONE'}); //NAO COPIAR ESSE ULTIMO PRA CIMA BITCH
+      return chrome.browserAction.setBadgeText({text: 'DONE'}); //NAO COPIAR ESSE ULTIMO PRA CIMA (SS is a bitch)
     });
-				}, 362000); // NAO ESQUECER DE MUDAR O TIME
+				}, 390000); // NAO ESQUECER DE MUDAR O TIME
   }  
 ////////////////////////////////////  
   auto(count = 10) {
@@ -3026,7 +3234,14 @@ chrome.browserAction.setBadgeText({text: '91'}); // NAO ESQUECER DE MUDAR O NUME
 		this.feed88(count, count);
 		this.feed89(count, count);
 		this.feed90(count, count);
-				
+		this.feed91(count, count);	
+		this.feed92(count, count);	
+		this.feed93(count, count);			
+		this.feed94(count, count);	
+		this.feed95(count, count);
+		this.feed96(count, count);
+		this.feed97(count, count);
+		
 ////////////////////////////////////
       }
       return res;
