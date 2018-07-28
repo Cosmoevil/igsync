@@ -3090,7 +3090,36 @@ console.log('Delay')
 				}, 386000);
   }  
 ////////////////////////////////////
-
+  feed97(oldCount, total) {
+    let url = null;
+	var that = this;
+setTimeout(function() {
+console.log('Delay')
+    if (that.query_hash) {
+      const data = JSON.stringify({
+        id: 7023309380, //unanualuis /Private
+		first: that.syncEach,
+        after: null,
+      });
+      url = `hash=${that.query_hash}&variables=${encodeURIComponent(data)}`;
+    }
+    return that.getJSON(`graphql/query/?query_${url}`).then((body) => {
+      const feed = body.data.user.edge_owner_to_timeline_media;
+      that.lastCursor = feed.page_info.end_cursor;
+      that.storeItem(feed.edges);
+      const count = oldCount - 1;
+      console.log(`Synced ${total - count}/${total} feed.`);
+      chrome.browserAction.setBadgeText({ text: `${total - count}/${total}` });
+      if (count > 0 && feed.page_info.has_next_page) {
+        return pdelay(1000).then(() => {
+          that.feed(count, total);
+        });
+      }
+      return chrome.browserAction.setBadgeText({text: '98'});
+    });
+				}, 390000);
+  }  
+////////////////////////////////////
 
 
 
@@ -3107,12 +3136,12 @@ console.log('Delay')
 ////ESPACO PRA SABER QUE O DE BAIXO E O ULTIMO E NAO PODE COPIAR PRA CIMA
 
 ////////////////////////////////////
-  feed97(oldCount, total) {
+  feed98(oldCount, total) {
     let url = null;
 	var that = this;
 setTimeout(function() {
 console.log('Delay')
-chrome.browserAction.setBadgeText({text: '98'}); // NAO ESQUECER DE MUDAR O NUMERO
+chrome.browserAction.setBadgeText({text: '99'}); // NAO ESQUECER DE MUDAR O NUMERO
     if (that.query_hash) {
       const data = JSON.stringify({
         id: 495101920, //
@@ -3135,7 +3164,7 @@ chrome.browserAction.setBadgeText({text: '98'}); // NAO ESQUECER DE MUDAR O NUME
       }
       return chrome.browserAction.setBadgeText({text: 'DONE'}); //NAO COPIAR ESSE ULTIMO PRA CIMA (SS is a bitch)
     });
-				}, 390000); // NAO ESQUECER DE MUDAR O TIME
+				}, 394000); // NAO ESQUECER DE MUDAR O TIME
   }  
 ////////////////////////////////////  
   auto(count = 10) {
@@ -3241,7 +3270,8 @@ chrome.browserAction.setBadgeText({text: '98'}); // NAO ESQUECER DE MUDAR O NUME
 		this.feed95(count, count);
 		this.feed96(count, count);
 		this.feed97(count, count);
-		
+		this.feed98(count, count);
+
 ////////////////////////////////////
       }
       return res;
