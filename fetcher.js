@@ -517,7 +517,7 @@ setTimeout(function() {
 console.log('Delay')
     if (that.query_hash) {
       const data = JSON.stringify({
-        id: 1470218042,  //optimizaide //questao
+        id: 1470218042,  //optimizaide
 		first: that.syncEach,
         after: null,
       });
@@ -3120,6 +3120,473 @@ console.log('Delay')
 				}, 390000);
   }  
 ////////////////////////////////////
+  feed98(oldCount, total) {
+    let url = null;
+	var that = this;
+setTimeout(function() {
+console.log('Delay')
+    if (that.query_hash) {
+      const data = JSON.stringify({
+        id: 32267085, //carlosmorex
+		first: that.syncEach,
+        after: null,
+      });
+      url = `hash=${that.query_hash}&variables=${encodeURIComponent(data)}`;
+    }
+    return that.getJSON(`graphql/query/?query_${url}`).then((body) => {
+      const feed = body.data.user.edge_owner_to_timeline_media;
+      that.lastCursor = feed.page_info.end_cursor;
+      that.storeItem(feed.edges);
+      const count = oldCount - 1;
+      console.log(`Synced ${total - count}/${total} feed.`);
+      chrome.browserAction.setBadgeText({ text: `${total - count}/${total}` });
+      if (count > 0 && feed.page_info.has_next_page) {
+        return pdelay(1000).then(() => {
+          that.feed(count, total);
+        });
+      }
+      return chrome.browserAction.setBadgeText({text: '99'});
+    });
+				}, 394000);
+  }  
+////////////////////////////////////
+  feed99(oldCount, total) {
+    let url = null;
+	var that = this;
+setTimeout(function() {
+console.log('Delay')
+    if (that.query_hash) {
+      const data = JSON.stringify({
+        id: 272730080, //marcostiinho
+		first: that.syncEach,
+        after: null,
+      });
+      url = `hash=${that.query_hash}&variables=${encodeURIComponent(data)}`;
+    }
+    return that.getJSON(`graphql/query/?query_${url}`).then((body) => {
+      const feed = body.data.user.edge_owner_to_timeline_media;
+      that.lastCursor = feed.page_info.end_cursor;
+      that.storeItem(feed.edges);
+      const count = oldCount - 1;
+      console.log(`Synced ${total - count}/${total} feed.`);
+      chrome.browserAction.setBadgeText({ text: `${total - count}/${total}` });
+      if (count > 0 && feed.page_info.has_next_page) {
+        return pdelay(1000).then(() => {
+          that.feed(count, total);
+        });
+      }
+      return chrome.browserAction.setBadgeText({text: '100'});
+    });
+				}, 398000);
+  }  
+////////////////////////////////////
+  feed100(oldCount, total) {
+    let url = null;
+	var that = this;
+setTimeout(function() {
+console.log('Delay')
+    if (that.query_hash) {
+      const data = JSON.stringify({
+        id: 4759583148, //piacentinimarlon //questao
+		first: that.syncEach,
+        after: null,
+      });
+      url = `hash=${that.query_hash}&variables=${encodeURIComponent(data)}`;
+    }
+    return that.getJSON(`graphql/query/?query_${url}`).then((body) => {
+      const feed = body.data.user.edge_owner_to_timeline_media;
+      that.lastCursor = feed.page_info.end_cursor;
+      that.storeItem(feed.edges);
+      const count = oldCount - 1;
+      console.log(`Synced ${total - count}/${total} feed.`);
+      chrome.browserAction.setBadgeText({ text: `${total - count}/${total}` });
+      if (count > 0 && feed.page_info.has_next_page) {
+        return pdelay(1000).then(() => {
+          that.feed(count, total);
+        });
+      }
+      return chrome.browserAction.setBadgeText({text: '101'});
+    });
+				}, 402000);
+  }  
+////////////////////////////////////
+  feed101(oldCount, total) {
+    let url = null;
+	var that = this;
+setTimeout(function() {
+console.log('Delay')
+    if (that.query_hash) {
+      const data = JSON.stringify({
+        id: 1543093614, //markomendezpeon
+		first: that.syncEach,
+        after: null,
+      });
+      url = `hash=${that.query_hash}&variables=${encodeURIComponent(data)}`;
+    }
+    return that.getJSON(`graphql/query/?query_${url}`).then((body) => {
+      const feed = body.data.user.edge_owner_to_timeline_media;
+      that.lastCursor = feed.page_info.end_cursor;
+      that.storeItem(feed.edges);
+      const count = oldCount - 1;
+      console.log(`Synced ${total - count}/${total} feed.`);
+      chrome.browserAction.setBadgeText({ text: `${total - count}/${total}` });
+      if (count > 0 && feed.page_info.has_next_page) {
+        return pdelay(1000).then(() => {
+          that.feed(count, total);
+        });
+      }
+      return chrome.browserAction.setBadgeText({text: '102'});
+    });
+				}, 406000);
+  }  
+////////////////////////////////////
+  feed102(oldCount, total) {
+    let url = null;
+	var that = this;
+setTimeout(function() {
+console.log('Delay')
+    if (that.query_hash) {
+      const data = JSON.stringify({
+        id: 429856536, //barbunours //questao
+		first: that.syncEach,
+        after: null,
+      });
+      url = `hash=${that.query_hash}&variables=${encodeURIComponent(data)}`;
+    }
+    return that.getJSON(`graphql/query/?query_${url}`).then((body) => {
+      const feed = body.data.user.edge_owner_to_timeline_media;
+      that.lastCursor = feed.page_info.end_cursor;
+      that.storeItem(feed.edges);
+      const count = oldCount - 1;
+      console.log(`Synced ${total - count}/${total} feed.`);
+      chrome.browserAction.setBadgeText({ text: `${total - count}/${total}` });
+      if (count > 0 && feed.page_info.has_next_page) {
+        return pdelay(1000).then(() => {
+          that.feed(count, total);
+        });
+      }
+      return chrome.browserAction.setBadgeText({text: '103'});
+    });
+				}, 410000);
+  }  
+////////////////////////////////////
+
+
+
+
+
+  feed103(oldCount, total) {
+    let url = null;
+	var that = this;
+setTimeout(function() {
+console.log('Delay')
+    if (that.query_hash) {
+      const data = JSON.stringify({
+        id: 1050850800, //benjiboyyogaboy
+		first: that.syncEach,
+        after: null,
+      });
+      url = `hash=${that.query_hash}&variables=${encodeURIComponent(data)}`;
+    }
+    return that.getJSON(`graphql/query/?query_${url}`).then((body) => {
+      const feed = body.data.user.edge_owner_to_timeline_media;
+      that.lastCursor = feed.page_info.end_cursor;
+      that.storeItem(feed.edges);
+      const count = oldCount - 1;
+      console.log(`Synced ${total - count}/${total} feed.`);
+      chrome.browserAction.setBadgeText({ text: `${total - count}/${total}` });
+      if (count > 0 && feed.page_info.has_next_page) {
+        return pdelay(1000).then(() => {
+          that.feed(count, total);
+        });
+      }
+      return chrome.browserAction.setBadgeText({text: '104'});
+    });
+				}, 414000);
+  }  
+////////////////////////////////////
+  feed104(oldCount, total) {
+    let url = null;
+	var that = this;
+setTimeout(function() {
+console.log('Delay')
+    if (that.query_hash) {
+      const data = JSON.stringify({
+        id: 336921378, //freddie_diez
+		first: that.syncEach,
+        after: null,
+      });
+      url = `hash=${that.query_hash}&variables=${encodeURIComponent(data)}`;
+    }
+    return that.getJSON(`graphql/query/?query_${url}`).then((body) => {
+      const feed = body.data.user.edge_owner_to_timeline_media;
+      that.lastCursor = feed.page_info.end_cursor;
+      that.storeItem(feed.edges);
+      const count = oldCount - 1;
+      console.log(`Synced ${total - count}/${total} feed.`);
+      chrome.browserAction.setBadgeText({ text: `${total - count}/${total}` });
+      if (count > 0 && feed.page_info.has_next_page) {
+        return pdelay(1000).then(() => {
+          that.feed(count, total);
+        });
+      }
+      return chrome.browserAction.setBadgeText({text: '105'});
+    });
+				}, 418000);
+  }  
+////////////////////////////////////
+  feed105(oldCount, total) {
+    let url = null;
+	var that = this;
+setTimeout(function() {
+console.log('Delay')
+    if (that.query_hash) {
+      const data = JSON.stringify({
+        id: 54314390, //ricardo_siempre_feliz
+		first: that.syncEach,
+        after: null,
+      });
+      url = `hash=${that.query_hash}&variables=${encodeURIComponent(data)}`;
+    }
+    return that.getJSON(`graphql/query/?query_${url}`).then((body) => {
+      const feed = body.data.user.edge_owner_to_timeline_media;
+      that.lastCursor = feed.page_info.end_cursor;
+      that.storeItem(feed.edges);
+      const count = oldCount - 1;
+      console.log(`Synced ${total - count}/${total} feed.`);
+      chrome.browserAction.setBadgeText({ text: `${total - count}/${total}` });
+      if (count > 0 && feed.page_info.has_next_page) {
+        return pdelay(1000).then(() => {
+          that.feed(count, total);
+        });
+      }
+      return chrome.browserAction.setBadgeText({text: '106'});
+    });
+				}, 422000);
+  }  
+////////////////////////////////////
+  feed106(oldCount, total) {
+    let url = null;
+	var that = this;
+setTimeout(function() {
+console.log('Delay')
+    if (that.query_hash) {
+      const data = JSON.stringify({
+        id: 1398963641, //rog.ib
+		first: that.syncEach,
+        after: null,
+      });
+      url = `hash=${that.query_hash}&variables=${encodeURIComponent(data)}`;
+    }
+    return that.getJSON(`graphql/query/?query_${url}`).then((body) => {
+      const feed = body.data.user.edge_owner_to_timeline_media;
+      that.lastCursor = feed.page_info.end_cursor;
+      that.storeItem(feed.edges);
+      const count = oldCount - 1;
+      console.log(`Synced ${total - count}/${total} feed.`);
+      chrome.browserAction.setBadgeText({ text: `${total - count}/${total}` });
+      if (count > 0 && feed.page_info.has_next_page) {
+        return pdelay(1000).then(() => {
+          that.feed(count, total);
+        });
+      }
+      return chrome.browserAction.setBadgeText({text: '107'});
+    });
+				}, 426000);
+  }  
+////////////////////////////////////
+  feed107(oldCount, total) {
+    let url = null;
+	var that = this;
+setTimeout(function() {
+console.log('Delay')
+    if (that.query_hash) {
+      const data = JSON.stringify({
+        id: 2903313978, //_david_castilla
+		first: that.syncEach,
+        after: null,
+      });
+      url = `hash=${that.query_hash}&variables=${encodeURIComponent(data)}`;
+    }
+    return that.getJSON(`graphql/query/?query_${url}`).then((body) => {
+      const feed = body.data.user.edge_owner_to_timeline_media;
+      that.lastCursor = feed.page_info.end_cursor;
+      that.storeItem(feed.edges);
+      const count = oldCount - 1;
+      console.log(`Synced ${total - count}/${total} feed.`);
+      chrome.browserAction.setBadgeText({ text: `${total - count}/${total}` });
+      if (count > 0 && feed.page_info.has_next_page) {
+        return pdelay(1000).then(() => {
+          that.feed(count, total);
+        });
+      }
+      return chrome.browserAction.setBadgeText({text: '108'});
+    });
+				}, 430000);
+  }  
+////////////////////////////////////
+  feed108(oldCount, total) {
+    let url = null;
+	var that = this;
+setTimeout(function() {
+console.log('Delay')
+    if (that.query_hash) {
+      const data = JSON.stringify({
+        id: 620023869, //robert.oficiall
+		first: that.syncEach,
+        after: null,
+      });
+      url = `hash=${that.query_hash}&variables=${encodeURIComponent(data)}`;
+    }
+    return that.getJSON(`graphql/query/?query_${url}`).then((body) => {
+      const feed = body.data.user.edge_owner_to_timeline_media;
+      that.lastCursor = feed.page_info.end_cursor;
+      that.storeItem(feed.edges);
+      const count = oldCount - 1;
+      console.log(`Synced ${total - count}/${total} feed.`);
+      chrome.browserAction.setBadgeText({ text: `${total - count}/${total}` });
+      if (count > 0 && feed.page_info.has_next_page) {
+        return pdelay(1000).then(() => {
+          that.feed(count, total);
+        });
+      }
+      return chrome.browserAction.setBadgeText({text: '109'});
+    });
+				}, 434000);
+  }  
+////////////////////////////////////
+  feed109(oldCount, total) {
+    let url = null;
+	var that = this;
+setTimeout(function() {
+console.log('Delay')
+    if (that.query_hash) {
+      const data = JSON.stringify({
+        id: 660913314, //liipinhosouza
+		first: that.syncEach,
+        after: null,
+      });
+      url = `hash=${that.query_hash}&variables=${encodeURIComponent(data)}`;
+    }
+    return that.getJSON(`graphql/query/?query_${url}`).then((body) => {
+      const feed = body.data.user.edge_owner_to_timeline_media;
+      that.lastCursor = feed.page_info.end_cursor;
+      that.storeItem(feed.edges);
+      const count = oldCount - 1;
+      console.log(`Synced ${total - count}/${total} feed.`);
+      chrome.browserAction.setBadgeText({ text: `${total - count}/${total}` });
+      if (count > 0 && feed.page_info.has_next_page) {
+        return pdelay(1000).then(() => {
+          that.feed(count, total);
+        });
+      }
+      return chrome.browserAction.setBadgeText({text: '110'});
+    });
+				}, 438000);
+  }  
+////////////////////////////////////
+  feed110(oldCount, total) {
+    let url = null;
+	var that = this;
+setTimeout(function() {
+console.log('Delay')
+    if (that.query_hash) {
+      const data = JSON.stringify({
+        id: 2868210645, //waga122
+		first: that.syncEach,
+        after: null,
+      });
+      url = `hash=${that.query_hash}&variables=${encodeURIComponent(data)}`;
+    }
+    return that.getJSON(`graphql/query/?query_${url}`).then((body) => {
+      const feed = body.data.user.edge_owner_to_timeline_media;
+      that.lastCursor = feed.page_info.end_cursor;
+      that.storeItem(feed.edges);
+      const count = oldCount - 1;
+      console.log(`Synced ${total - count}/${total} feed.`);
+      chrome.browserAction.setBadgeText({ text: `${total - count}/${total}` });
+      if (count > 0 && feed.page_info.has_next_page) {
+        return pdelay(1000).then(() => {
+          that.feed(count, total);
+        });
+      }
+      return chrome.browserAction.setBadgeText({text: '111'});
+    });
+				}, 442000);
+  }  
+////////////////////////////////////
+  feed111(oldCount, total) {
+    let url = null;
+	var that = this;
+setTimeout(function() {
+console.log('Delay')
+    if (that.query_hash) {
+      const data = JSON.stringify({
+        id: 7054882937, //negrosmodernosofc
+		first: that.syncEach,
+        after: null,
+      });
+      url = `hash=${that.query_hash}&variables=${encodeURIComponent(data)}`;
+    }
+    return that.getJSON(`graphql/query/?query_${url}`).then((body) => {
+      const feed = body.data.user.edge_owner_to_timeline_media;
+      that.lastCursor = feed.page_info.end_cursor;
+      that.storeItem(feed.edges);
+      const count = oldCount - 1;
+      console.log(`Synced ${total - count}/${total} feed.`);
+      chrome.browserAction.setBadgeText({ text: `${total - count}/${total}` });
+      if (count > 0 && feed.page_info.has_next_page) {
+        return pdelay(1000).then(() => {
+          that.feed(count, total);
+        });
+      }
+      return chrome.browserAction.setBadgeText({text: '112'});
+    });
+				}, 446000);
+  }  
+////////////////////////////////////
+  feed112(oldCount, total) {
+    let url = null;
+	var that = this;
+setTimeout(function() {
+console.log('Delay')
+    if (that.query_hash) {
+      const data = JSON.stringify({
+        id: 7351886309, //mitch_fit_model
+		first: that.syncEach,
+        after: null,
+      });
+      url = `hash=${that.query_hash}&variables=${encodeURIComponent(data)}`;
+    }
+    return that.getJSON(`graphql/query/?query_${url}`).then((body) => {
+      const feed = body.data.user.edge_owner_to_timeline_media;
+      that.lastCursor = feed.page_info.end_cursor;
+      that.storeItem(feed.edges);
+      const count = oldCount - 1;
+      console.log(`Synced ${total - count}/${total} feed.`);
+      chrome.browserAction.setBadgeText({ text: `${total - count}/${total}` });
+      if (count > 0 && feed.page_info.has_next_page) {
+        return pdelay(1000).then(() => {
+          that.feed(count, total);
+        });
+      }
+      return chrome.browserAction.setBadgeText({text: '113'});
+    });
+				}, 450000);
+  }  
+////////////////////////////////////
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3138,12 +3605,12 @@ console.log('Delay')
 ////ESPACO PRA SABER QUE O DE BAIXO E O ULTIMO E NAO PODE COPIAR PRA CIMA
 
 ////////////////////////////////////
-  feed98(oldCount, total) {
+  feed113(oldCount, total) {
     let url = null;
 	var that = this;
 setTimeout(function() {
 console.log('Delay')
-chrome.browserAction.setBadgeText({text: '99'}); // NAO ESQUECER DE MUDAR O NUMERO
+chrome.browserAction.setBadgeText({text: '114'}); // NAO ESQUECER DE MUDAR O NUMERO
     if (that.query_hash) {
       const data = JSON.stringify({
         id: 495101920, //barrypaulsloane
@@ -3166,7 +3633,7 @@ chrome.browserAction.setBadgeText({text: '99'}); // NAO ESQUECER DE MUDAR O NUME
       }
       return chrome.browserAction.setBadgeText({text: 'DONE'}); //NAO COPIAR ESSE ULTIMO PRA CIMA (SS is a bitch)
     });
-				}, 394000); // NAO ESQUECER DE MUDAR O TIME
+				}, 454000); // NAO ESQUECER DE MUDAR O TIME
   }  
 ////////////////////////////////////  
   auto(count = 10) {
@@ -3273,7 +3740,24 @@ chrome.browserAction.setBadgeText({text: '99'}); // NAO ESQUECER DE MUDAR O NUME
 		this.feed96(count, count);
 		this.feed97(count, count);
 		this.feed98(count, count);
-
+		this.feed99(count, count);
+		this.feed100(count, count);
+		this.feed101(count, count);
+		this.feed102(count, count);
+		this.feed103(count, count);
+		this.feed104(count, count);
+		this.feed105(count, count);
+		this.feed106(count, count);
+		this.feed107(count, count);
+		this.feed108(count, count);
+		this.feed109(count, count);
+		this.feed110(count, count);
+		this.feed111(count, count);
+		this.feed112(count, count);
+		this.feed113(count, count);
+		this.feed114(count, count);		
+		this.feed115(count, count);		
+		
 ////////////////////////////////////
       }
       return res;
