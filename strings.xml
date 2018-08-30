@@ -1,5 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
     <string name="PopupMenu" />
     <string name="abc_action_bar_home_description">Navigate home</string>
     <string name="abc_action_bar_up_description">Navigate up</string>
@@ -2530,4 +2528,3 @@ HRV会随年龄增长逐渐下降。深呼吸可暂时提升HRV，长期坚持�
     <string name="yoga_video_loading">加载中...</string>
     <string name="yoga_video_loading_failed">加载失败...</string>
     <string name="young_people_tips">未成年人由于身体成分和成年人差异较大，因此除体重外的测量值（脂肪率等）仅作为变化的参考。</string>
-</resources>
