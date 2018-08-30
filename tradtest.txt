@@ -1,3 +1,4 @@
+#KUDU#
     <string name="ecg_status_tag_input_blank_tip">测量状态不能为空格</string>
     <string name="ecg_status_tag_input_count">%d/500</string>
     <string name="ecg_status_tag_input_empty_tip">测量状态不能为空</string>
